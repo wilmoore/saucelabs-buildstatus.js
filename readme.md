@@ -22,13 +22,13 @@ var status = require('saucelabs-buildstatus')
 status(process.env.SAUCE_USERNAME, function (error, response) {
   console.log(response)
 })
-//=> { status: 'passing'}
+//=> { status: 'passing' }
 
 // promise API
 status(process.env.SAUCE_USERNAME)
   .then(console.log)
   .catch(console.error)
-//=> { status: 'passing'}
+//=> { status: 'passing' }
 ```
 
 ###### Build status 'failed'
@@ -40,13 +40,13 @@ var status = require('saucelabs-buildstatus')
 status(process.env.SAUCE_USERNAME, function (error, response) {
   console.log(response)
 })
-//=> { status: 'failed'}
+//=> { status: 'failed' }
 
 // promise API
 status(process.env.SAUCE_USERNAME)
   .then(console.log)
   .catch(console.error)
-//=> { status: 'failed'}
+//=> { status: 'failed' }
 ```
 
 ###### Build status 'unknown'
@@ -58,13 +58,13 @@ var status = require('saucelabs-buildstatus')
 status(process.env.SAUCE_USERNAME, function (error, response) {
   console.log(response)
 })
-//=> { status: 'unknown'}
+//=> { status: 'unknown' }
 
 // promise API
 status(process.env.SAUCE_USERNAME)
   .then(console.log)
   .catch(console.error)
-//=> { status: 'unknown'}
+//=> { status: 'unknown' }
 ```
 
 ###### Error: Account not found
@@ -74,13 +74,13 @@ status(process.env.SAUCE_USERNAME)
 status('n0000000000000p', function (error, response) {
   console.log(response)
 })
-//=> { status: 'error', error: 'Account not found'  }
+//=> { status: 'error', error: 'Account not found' }
 
 // promise API
 status('n0000000000000p')
   .then(console.log)
   .catch(console.error)
-//=> { status: 'error', error: 'Account not found'  }
+//=> { status: 'error', error: 'Account not found' }
 ```
 
 ## API
