@@ -98,6 +98,11 @@ status('n0000000000000p')
 ## Reference
 
  - [Using Status Badges and the Browser Matrix Widget to Monitor Test Results]
+ - [Free unlimited testing for open source projects]
+
+## Related
+
+- [Zuul: multi-framework javascript browser testing]
 
 ## Contributing
 
@@ -108,3 +113,5 @@ status('n0000000000000p')
 [![GitHub license](https://img.shields.io/github/license/wilmoore/saucelabs-buildstatus.js.svg)](https://github.com/wilmoore/saucelabs-buildstatus.js/blob/master/license)
 
 [Using Status Badges and the Browser Matrix Widget to Monitor Test Results]: https://wiki.saucelabs.com/display/DOCS/Using+Status+Badges+and+the+Browser+Matrix+Widget+to+Monitor+Test+Results
+[Free unlimited testing for open source projects]: https://saucelabs.com/opensauce
+[Zuul: multi-framework javascript browser testing]: https://github.com/defunctzombie/zuul
