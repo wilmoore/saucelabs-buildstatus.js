@@ -1,7 +1,7 @@
 {
   "name": "saucelabs-buildstatus",
   "description": "Retrieve sauce labs build status with dual error-first callback and Promise API.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
     "url": "https://github.com/wilmoore/saucelabs-buildstatus.js/issues"
